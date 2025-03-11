@@ -11,6 +11,8 @@ package com.mycompany.prjclasses;
 public class PrjClasses {
 
     public static void main(String[] args) {
-        System.out.println("Hello World! I just did GitHub and...");
+       NewClass nc = NewClass();
+       nc.HelloClass();
+       System.out.println(nc.strSecondClassVar);
     }
 }
